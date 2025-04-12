@@ -9,3 +9,9 @@ jobs:
     steps:
       - name: Run main file
         run: echo This job run!
+  create_file:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Create file
+        run: echo Hello!>>hello.md
