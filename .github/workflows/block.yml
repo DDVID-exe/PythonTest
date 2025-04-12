@@ -7,6 +7,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: clone this repository
+        run: git clone https://github.com/DDVID-exe/PythonTest
+      - name: cd PythonTest
+        run: cd PythonTest
       - name: Run main file
         run: echo GG>>hell.md
       - name: List files
