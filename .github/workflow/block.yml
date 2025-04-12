@@ -1,0 +1,11 @@
+name: Test workflow
+
+on: push
+
+jobs:
+  start_main:
+    runs_on: ubuntu-latest
+
+    steps:
+      - name: Run main file
+        run: python3 main.py
