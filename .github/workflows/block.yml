@@ -8,10 +8,11 @@ jobs:
 
     steps:
       - name: Run main file
-        run: echo This job run!
-  create_file:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Create file
-        run: echo Hello!>>hello.md
+        run: echo GG>>hell.md
+      - name: git set
+        run: git config --global user.name DDVID-exe
+      - name: git set 2
+        run: git config --global user.email v3lk4ng@gmail.com
+      - name: git it
+        run: git init
+      
