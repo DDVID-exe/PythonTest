@@ -21,3 +21,7 @@ jobs:
         run: git add hell.md
       - name: set git settings
         run: git remote add origin https://github.com/DDVID-exe/PythonTest
+      - name: git commit
+        run: git commit -m "commit by workflow"
+      - name: git push
+        run: git push -u origin main
