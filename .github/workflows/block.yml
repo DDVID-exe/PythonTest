@@ -8,4 +8,4 @@ jobs:
 
     steps:
       - name: Run main file
-        run: python3 main.py
+        run: echo This job run!
