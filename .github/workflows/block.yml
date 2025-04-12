@@ -19,3 +19,5 @@ jobs:
         run: git init
       - name: git add
         run: git add hell.md
+      - name: set git settings
+        run: git remote add origin https://github.com/DDVID-exe/PythonTest
